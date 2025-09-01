@@ -5,7 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Question</title>
     <style>
-       
+        .quiz-container {
+            font-family: Arial, sans-serif;
+        }
+        .question {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .options {
+            margin-bottom: 20px;
+        }
+        .options label {
+            display: block;
+            margin: 10px 0;
+        }
         blockquote {
             max-width: 600px;
             margin: 10px auto;
@@ -19,7 +32,7 @@
 <body>
     <div class="quiz-container">
         <div class="question">
-            What is the capital of India?
+            <b>What is the capital of India?</b>
         </div>
         <div class="options">
             <label><input type="radio" name="capital" value="New Delhi"> New Delhi</label>
